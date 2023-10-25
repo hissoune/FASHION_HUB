@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATALOGUE</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="LOGO">FASHIONhub</a>
+       <nav>
+       
+        <a href="index.html">HOME</a>
+            <a  class="active" class="CATA" href="cataliogue.html">CATALOGUE</a>
+            <a  href="INSCREPTION.html">SIGN UP</a>
+       </nav>
+       <button id="btnn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    </header>
+    <main  class="main">
+        <section class="catalogue">
+            <div class="titl1">
+                 <h1>our cataliogue</h1>
+            </div>
+            <div class="choix">
+             <div><img src="IMAGES/JEEN1.png" alt="JU">
+            <a href="jeans.html">JEANS</a>
+           
+            </div>
+                <div><img src="IMAGES/DRESS6.png" alt="">
+                <a href="dresses.html">DRESSES</a>
+                
+                </div>
+                <div><img src="IMAGES/SH1.png" alt="">
+                <a href="shoeses.html">SHOESES</a>
+               
+                </div>
+            </div>  
+        </section>
+        
+        <section class="happy" >
+            <div >
+                <h1>HAPPY CUSTUMERS</h1>
+           </div>
+           <div class="COMNTS">
+            <div class="revew">
+                <img class="comnt" src="IMAGES/profile1.jpg"alt="">
+              <div  style="width: 200px;"> <p  class="namescomnt">NARUTO</p>
+                <span class="STARS" >&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    <p>nice serves and good products</p>
+                   
+            </div>
+
+            </div>
+            <div class="revew">
+                <img class="comnt" src="IMAGES/profile2.jpg"alt="">
+              <div  style="width: 200px;"> <p class="namescomnt">mike stathum</p>
+                <span class="STARS" >&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    <p>good work i like it</p>
+                   
+            </div>
+
+            </div>
+            <div class="revew">
+                <img class="comnt" src="IMAGES/profile1.jpg"alt="">
+              <div  style="width: 200px;"> <p class="namescomnt">BERNAND HOLMS</p>
+                <span class="STARS" >&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    <p>amazing servise thank you </p>
+                   
+            </div>
+
+            </div>
+            <div class="revew">
+                <img class="comnt" src="IMAGES/profile3.jpg"alt="">
+              <div  style="width: 200px;"> <p class="namescomnt">liza benjamen</p>
+                <span class="STARS" >&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    <p>evry thing good like the products</p>
+                    
+            </div>
+
+            </div>
+        </div>
+        </section>
+       <section class="FAQ">
+        <h2>FAQ</h2>
+
+<button class="accordion">Qu'est-ce que votre site de mode propose ?</button>
+<div class="panel">
+  <p>Notre site de mode propose une large gamme de vêtements, chaussures et accessoires tendance pour hommes, femmes et enfants..</p>
+</div>
+
+<button class="accordion">Comment puis-je naviguer sur votre site et trouver des produits ?</button>
+<div class="panel">
+  <p>Vous pouvez naviguer sur notre site en utilisant le menu principal pour explorer différentes catégories de produits, ou utiliser la fonction de recherche pour trouver des articles spécifiques..</p>
+</div>
+
+<button class="accordion">Quels types de vêtements et accessoires vendez-vous ?</button>
+<div class="panel">
+  <p>Nous proposons des vêtements de tous les types, y compris des robes, des chemises, des pantalons, des chaussures, des sacs à main, des bijoux, des lunettes de soleil et bien plus encore.</p>
+</div>
+
+
+       </section>
+    </main>
+    <footer >
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2022 Company</p>
+        <P>Privacy Policy &nbsp;&nbsp;&nbsp;Terms and Conditions</P>
+       
+      </footer>
+    <script src="js.js"></script>
+    <script>
+         
+         var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+    </script>
+</body>
+</html>
