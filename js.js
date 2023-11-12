@@ -22,9 +22,7 @@ SIGN1.addEventListener("click",function(){
   
 
 });
-SIGN2.addEventListener("click",function(){ 
-   alert("saved");
-});
+
 SIGN4.addEventListener("click",function(){
     
 
@@ -33,9 +31,18 @@ SIGN4.addEventListener("click",function(){
   
 
 });
-SIGN3.addEventListener("click",function(){ 
-   alert("saved");
-});
+ let FORM =document.getElementById("FORM")
+ let password =document.getElementById("password")
+ let errorelemrnt =document.getElementById("errorel")
+
+ FORM.addEventListener("submit",(e)=>{
+     
+         
+            alert('welcom to fashion hub')
+         
+     
+    
+ })
 
 
 

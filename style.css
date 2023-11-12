@@ -15,7 +15,6 @@ body{
     overflow-x: hidden;
     
  }
- 
 
     
 
@@ -94,7 +93,7 @@ nav a:hover{
     width: px;
     margin-left: 200px;
     margin-top: 45px;
-    color: rgb(59, 0, 235);
+    color: rgb(153, 235, 0);
 }
 .btn{
     margin-top: 27%;
@@ -108,6 +107,7 @@ nav a:hover{
     
 
 }
+
 .btn:hover{
     background-color: aqua;
 }

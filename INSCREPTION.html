@@ -26,24 +26,29 @@
         <div class="sign">
             <h1 class="port">SIGN UP</h1>
         </div>
-    <div class="container3">
-         <div >
-              <p >First name</p>
-                <input  type="text" placeholder="Enter your name here "/>
-                <p >Last name</p>
+        
+    <div id="errorel" class="container3">
+           <form id="FORM" action="/" method="get">
+            <label for="name" > name</label>
+            <br>
+            <input id="name" name="name" type="text" required>
+            <BR></BR>
+            <label for="name" >last name</label>
+            <br>
+            <input id="name" name="name" type="text" required>
 
-                <input type="text" placeholder="Enter your email here"/>
-                <p >Email</p>
-
-                <input type="text" placeholder="Enter your email here"/>
-
-                <p >Password</p>
-                <input type="password" placeholder="Enter your message here..."/> 
-                
-        </div>
-        <button class="sign1"  id="B1" type="submit">SIGN IN</button>
-        <button  class="sign1" id="B2" type="submit">SIGN UP</button>
-
+            <BR></BR>
+            <label for="email" > email</label>
+            <br>
+            <input id="email" name="email" type="email" required>
+            <BR></BR>
+            <label for="password" > pasword</label>
+            <br>
+            <input id="password" name="password" type="passwors" required>
+            <BR></BR>
+            <button class="sign1" id="B1" type="submit">SIGN IN</button>
+            <button class="sign1" id="B2" type="submit">SIGN UP</button>
+           </form>
 
         </div> 
     </section> 
@@ -52,21 +57,20 @@
             <h1 class="port">SIGN IN</h1>
         </div>
     <div class="container3">
-         <div >
-             
-                <p >Email</p>
-
-                <input type="text" placeholder="Enter your email here"/>
-
-                <p >Password</p>
-                <input type="password" placeholder="Enter your message here..."/> 
-                
-        </div>
-        <button class="sign1" id="B3" type="submit"> SIGN IN</button>
+      
+      <form id="FORM" action="/" method="get">
+       
+        <label for="email" > email</label>
+        <br>
+        <input id="email" name="email" type="email" required>
+        <BR></BR>
+        <label for="password" > pasword</label>
+        <br>
+        <input id="password" name="password" type="passwors" required>
+        <BR></BR>
+        <button class="sign1" id="B3" type="submit">SIGN IN</button>
         <button class="sign1" id="B4" type="submit">SIGN UP</button>
-
-
-        </div> 
+       </form>
     </section> 
 </main>
 <footer >
@@ -74,6 +78,7 @@
     <P>Privacy Policy &nbsp;&nbsp;&nbsp;Terms and Conditions</P>
    
   </footer>
+ 
 <script src="js.js"></script>
 </body>
 </html>
